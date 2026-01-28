@@ -29,6 +29,7 @@
 
 #### Data Visualization
 
+- ⚓ [csg-envelope-sim-003](https://pages.mkhr.co.jp/csg-envelope-sim-003/) - 3D carrier strike group weapon envelope simulation (CesiumJS)
 - 🌍 [earthquake-cesium](https://pages.mkhr.co.jp/earthquake-cesium/) - 3D earthquake visualization with CesiumJS (Japan, 2000-2023, M≥3)
 - 🗺️ [earthquake-mapbox](https://pages.mkhr.co.jp/earthquake-mapbox/) - 2D earthquake map with MapLibre + Deck.gl, depth coloring, filters
 - 🚃 [tokyo-transit-isochrone](https://pages.mkhr.co.jp/tokyo-transit-isochrone/) - Tokyo Station transit isochrone animation (90-min reachability)
@@ -55,7 +56,7 @@
 
 #### Browser Extensions
 
-- 🧩 [chrome-sitemap-visualizer](https://github.com/ibarapascal/chrome-sitemap-visualizer) - Chrome extension: sitemap screenshot + D3 tree visualization
+- 🧩 [chrome-sitemap-visualizer](https://github.com/mkhrdev/chrome-sitemap-visualizer) - Chrome extension: sitemap screenshot + D3 tree visualization
 
 #### Legacy Works
 
