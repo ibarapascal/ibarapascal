@@ -26,6 +26,7 @@
 - <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [cc-spec-driven](https://github.com/mkhrdev/cc-spec-driven) - Claude Code plugin for managing requirement documents and spec-driven development
 - <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [claude-code-mac-notification](https://github.com/ibarapascal/claude-code-mac-notification) - macOS system notifications for Claude Code
 - <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [ctx](https://gist.github.com/ibarapascal/c25c322240be7343988130e17ae02b5f) - Claude Code command to show markdown files read in current session
+- <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [my-global-config](https://gist.github.com/ibarapascal/32132f7b4108252f79dd628edd401140) - My Claude Code global settings and configuration
 
 #### Data Visualization
 
