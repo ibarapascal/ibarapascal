@@ -17,7 +17,7 @@
 
 > Systems-oriented builder bridging product, engineering, and finance—turning complex, constrained problems into executable systems under Japan's compliance framework.
 
-- 🔍 [my-resume-by-ai](https://pages.mkhr.co.jp/my-resume-by-ai/) - AI-generated profile report page (CN/JP/EN)
+- 🔍 [my-resume-by-ai](https://pages.mkhr.co.jp/my-resume-by-ai/) - AI-generated profile report page (as of 2026-01-09)
 - <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [claude-code-insights-report](https://pages.mkhr.co.jp/claude-code-insights-report-20260204/) - Claude Code usage analytics (as of 2026-02-04)
 
 ## Featured Projects
@@ -31,9 +31,7 @@
 
 #### Data Visualization
 
-- ⚓ [csg-envelope-sim-003](https://pages.mkhr.co.jp/csg-envelope-sim-003/) - 3D carrier strike group weapon envelope simulation (CesiumJS)
 - 🌍 [earthquake-cesium](https://pages.mkhr.co.jp/earthquake-cesium/) - 3D earthquake visualization with CesiumJS (Japan, 2000-2023, M≥3)
-- 🗺️ [earthquake-mapbox](https://pages.mkhr.co.jp/earthquake-mapbox/) - 2D earthquake map with MapLibre + Deck.gl, depth coloring, filters
 - 🚃 [tokyo-transit-isochrone](https://pages.mkhr.co.jp/tokyo-transit-isochrone/) - Tokyo Station transit isochrone animation (90-min reachability)
 - 🏙️ [tokyo-ksj-zone](https://pages.mkhr.co.jp/tokyo-ksj-zone/) - Tokyo zoning map with 12 land-use types (KSJ data)
 - 📍 [japan-osm-poi](https://pages.mkhr.co.jp/japan-osm-poi/) - Japan POI map from OpenStreetMap, filterable by type
@@ -63,6 +61,8 @@
 #### Legacy Works
 
 - <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [cc-spec-driven](https://github.com/mkhrdev/cc-spec-driven) - Claude Code plugin for managing requirement documents and spec-driven development
+- ⚓ [csg-envelope-sim-003](https://pages.mkhr.co.jp/csg-envelope-sim-003/) - 3D carrier strike group weapon envelope simulation (CesiumJS)
+- 🗺️ [earthquake-mapbox](https://pages.mkhr.co.jp/earthquake-mapbox/) - 2D earthquake map with MapLibre + Deck.gl, depth coloring, filters
 - 📂 [data-epicenter-jp](https://github.com/ibarapascal/data-epicenter-jp) - JS scripts to format Japan's official seismic epicenter data to CSV, JSON
 - ⏱️ [time-controller](https://github.com/ibarapascal/time-controller) - A hybrid mobile application to manage your time spent
 - 📝 [demo-box](https://github.com/ibarapascal/demo-box) - Web application to write in Markdown, JSX, and code sandbox
