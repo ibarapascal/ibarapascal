@@ -17,7 +17,8 @@
 
 > Systems-oriented builder bridging product, engineering, and finance—turning complex, constrained problems into executable systems under Japan's compliance framework.
 
-🔍 [my-resume-by-ai](https://pages.mkhr.co.jp/my-resume-by-ai/) - AI-generated profile report page (CN/JP/EN)
+- 🔍 [my-resume-by-ai](https://pages.mkhr.co.jp/my-resume-by-ai/) - AI-generated profile report page (CN/JP/EN)
+- <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [claude-code-insights-report](https://pages.mkhr.co.jp/claude-code-insights-report-20260204/) - Claude Code usage analytics (as of 2026-02-04)
 
 ## Featured Projects
 
