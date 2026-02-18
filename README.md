@@ -22,6 +22,8 @@
 
 ## Featured Projects
 
+- <img src="https://locanea.com/logo-bold.svg" width="16" height="16"> [Locanea](https://locanea.com/) - Geospatial GIS SaaS for real estate location analysis (Japan)
+
 #### Claude Code Related
 
 - <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [compact-guardian](https://github.com/ibarapascal/compact-guardian) - Claude Code plugin to prevent task loss during context compaction
