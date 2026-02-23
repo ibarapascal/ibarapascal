@@ -26,7 +26,6 @@
 
 #### Claude Code Related
 
-- <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [compact-guardian](https://github.com/ibarapascal/compact-guardian) - Claude Code plugin to prevent task loss during context compaction
 - <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [process-guardian](https://github.com/ibarapascal/process-guardian) - Claude Code plugin for auto-cleanup of orphan background processes
 - <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [claude-code-mac-notification](https://github.com/ibarapascal/claude-code-mac-notification) - macOS system notifications for Claude Code
 - <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [ctx](https://gist.github.com/ibarapascal/c25c322240be7343988130e17ae02b5f) - Claude Code command to show markdown files read in current session
@@ -63,6 +62,7 @@
 
 #### Legacy Works
 
+- <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [compact-guardian](https://github.com/ibarapascal/compact-guardian) - Claude Code plugin to prevent task loss during context compaction
 - <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [cc-spec-driven](https://github.com/mkhrdev/cc-spec-driven) - Claude Code plugin for managing requirement documents and spec-driven development
 - ⚓ [csg-envelope-sim-003](https://pages.mkhr.co.jp/csg-envelope-sim-003/) - 3D carrier strike group weapon envelope simulation (CesiumJS)
 - 🗺️ [earthquake-mapbox](https://pages.mkhr.co.jp/earthquake-mapbox/) - 2D earthquake map with MapLibre + Deck.gl, depth coloring, filters
