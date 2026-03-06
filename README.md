@@ -52,6 +52,7 @@
 
 #### Tools
 
+- 📈 [btc-indicator-portal](https://pages.mkhr.co.jp/btc-indicator-portal/) - BTC on-chain indicator dashboard with 15 metrics overlay (ECharts)
 - 📊 [portfolio-analyzer](https://pages.mkhr.co.jp/portfolio-analyzer/) - Portfolio analyzer with ETF breakdown, leverage index, sector allocation
 - ✈️ [travel-risk-map](https://pages.mkhr.co.jp/travel-risk-map/) - Travel risk map with US/Japan official data, risk level coloring
 - 📈 [home-board](https://pages.mkhr.co.jp/home-board/) - Financial dashboard - stocks, weather, forex in one screen
