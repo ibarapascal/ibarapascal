@@ -34,6 +34,7 @@
 #### Data Visualization
 
 - 🌍 [earthquake-cesium](https://pages.mkhr.co.jp/earthquake-cesium/) - 3D earthquake visualization with CesiumJS (Japan, 2000-2023, M≥3)
+- 🏙️ [tokyo-building-density-3d](https://pages.mkhr.co.jp/tokyo-building-density-3d/) - 3D building FAR visualization around Tokyo Station (8,600 buildings, CesiumJS)
 - 🚃 [tokyo-transit-isochrone](https://pages.mkhr.co.jp/tokyo-transit-isochrone/) - Tokyo Station transit isochrone animation (90-min reachability)
 - 🏙️ [tokyo-ksj-zone](https://pages.mkhr.co.jp/tokyo-ksj-zone/) - Tokyo zoning map with 12 land-use types (KSJ data)
 - 📍 [japan-osm-poi](https://pages.mkhr.co.jp/japan-osm-poi/) - Japan POI map from OpenStreetMap, filterable by type
