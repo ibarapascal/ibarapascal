@@ -26,6 +26,7 @@
 
 #### Claude Code Related
 
+- <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [claude-semaphore](https://github.com/ibarapascal/claude-semaphore) - Claude Code plugin — Terminal.app tab background color as session status indicator
 - <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [process-guardian](https://github.com/ibarapascal/process-guardian) - Claude Code plugin for auto-cleanup of orphan background processes
 - <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [claude-code-mac-notification](https://github.com/ibarapascal/claude-code-mac-notification) - macOS system notifications for Claude Code
 - <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [my-global-config](https://gist.github.com/ibarapascal/32132f7b4108252f79dd628edd401140) - My Claude Code global settings and configuration
