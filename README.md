@@ -24,6 +24,10 @@
 
 - <img src="https://locanea.com/logo-bold.svg" width="16" height="16"> [Locanea](https://locanea.com/) - Geospatial GIS SaaS for real estate location analysis (Japan)
 
+#### Security
+
+- 🛡️ [TeamPCP Supply Chain Attack Self-Check (2026-03)](https://gist.github.com/ibarapascal/f8ca7f90ff75f12e0bf7898ff6bf6aca) - Full self-check checklist for the TeamPCP campaign (LiteLLM / Trivy / Checkmarx / CanisterWorm)
+
 #### Claude Code Related
 
 - <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [claude-semaphore](https://github.com/ibarapascal/claude-semaphore) - Claude Code plugin — Terminal.app tab background color as session status indicator
