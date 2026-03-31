@@ -26,7 +26,8 @@
 
 #### Security
 
-- 🛡️ [TeamPCP Supply Chain Attack Self-Check (2026-03)](https://gist.github.com/ibarapascal/f8ca7f90ff75f12e0bf7898ff6bf6aca) - Full self-check checklist for the TeamPCP campaign (LiteLLM / Trivy / Checkmarx / CanisterWorm)
+- 🛡️ [Axios Supply Chain Attack Self-Check (2026-03-31)](https://gist.github.com/ibarapascal/654c1ff0fc5a79e73cff9dbdc701cd0f) - Full self-check checklist for the axios/plain-crypto-js/openclaw compromise
+- 🛡️ [TeamPCP Supply Chain Attack Self-Check (2026-03-25)](https://gist.github.com/ibarapascal/f8ca7f90ff75f12e0bf7898ff6bf6aca) - Full self-check checklist for the TeamPCP campaign (LiteLLM / Trivy / Checkmarx / CanisterWorm)
 
 #### Claude Code Related
 
