@@ -18,7 +18,7 @@
 > Systems-oriented builder bridging product, engineering, and finance—turning complex, constrained problems into executable systems under Japan's compliance framework.
 
 - 🔍 [my-resume-by-ai](https://pages.mkhr.co.jp/my-resume-by-ai/) - AI-generated profile report page (as of 2026-01-09)
-- <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [claude-code-insights-report](https://pages.mkhr.co.jp/claude-code-insights-report-20260204/) - Claude Code usage analytics (as of 2026-02-04)
+- <a href="https://pages.mkhr.co.jp/claude-code-insights-report-20260204/"><img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16" align="top">&nbsp;claude-code-insights-report</a> - Claude Code usage analytics (as of 2026-02-04)
 
 ## Featured Projects
 
@@ -83,11 +83,3 @@
 - ⚛️ [react-debounce-rendering](https://github.com/ibarapascal/react-debounce-rendering) - NPM package for debounce rendering React components via HOC
 - 🗾 [epicenter-view](https://github.com/ibarapascal/epicenter-view) - Web application visualizing seismic epicenter data using ArcGIS APIs
 - 💹 [digital-currency-historical-data-s3](https://github.com/ibarapascal/digital-currency-historical-data-s3) - JS scripts to obtain trade data and format to JSON
-
-## What I'm Doing
-
-- Managing and developing crypto asset trading systems in Japan
-- Building AI workflows with cutting-edge tools to accelerate product development
-- Running a solo GIS (Geographic Information Services) project end-to-end
-- Studying for USCPA to strengthen my finance knowledge
-- Spending quality time with my wife and little baby
