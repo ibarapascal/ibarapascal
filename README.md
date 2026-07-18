@@ -1,40 +1,41 @@
 # Hi, I'm Jiawei 👋
 
-📍 **Tokyo** | 🏢 Ex-Dentsu, Ex-Softbank, Ex-CTW, Current SONY | 🚀 MKHR Founder
+📍 **Tokyo** | ⚡ Delta Electronics (Energy Solutions) | 🏢 Ex-Dentsu, Ex-Softbank, Ex-SONY | 🚀 MKHR Founder
 
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Three.js](https://img.shields.io/badge/-Three.js-000000?style=flat-square&logo=three.js&logoColor=white)
-![MapLibre](https://img.shields.io/badge/-MapLibre-396CB2?style=flat-square&logo=maplibre&logoColor=white)
 ![CesiumJS](https://img.shields.io/badge/-CesiumJS-6CADDF?style=flat-square&logo=cesium&logoColor=white)
+![MapLibre](https://img.shields.io/badge/-MapLibre-396CB2?style=flat-square&logo=maplibre&logoColor=white)
+![OpenUSD](https://img.shields.io/badge/-OpenUSD-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Claude Code](https://img.shields.io/badge/-Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/-Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![macOS](https://img.shields.io/badge/-macOS-000000?style=flat-square&logo=apple&logoColor=white)
 ![Web](https://img.shields.io/badge/-Web-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
 
-> Systems-oriented builder bridging product, engineering, and finance—turning complex, constrained problems into executable systems under Japan's compliance framework.
+> Systems-oriented builder at the intersection of energy, data, and software — from Japan's power market research (JEPX / battery storage / grid data) to geospatial SaaS, turning complex, constrained real-world problems into executable systems.
 
-- 🔍 [my-resume-by-ai](https://pages.mkhr.co.jp/my-resume-by-ai/) - AI-generated profile report page (as of 2026-01-09)
-- <a href="https://pages.mkhr.co.jp/claude-code-insights-report-20260204/"><img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16" align="top">&nbsp;claude-code-insights-report</a> - Claude Code usage analytics (as of 2026-02-04)
+## Research — Power Markets, Infrastructure & Urban Data (Japan)
+
+Independent researcher — first-author papers under review at international journals (preprints on SSRN / EarthArXiv / Zenodo), across four parallel tracks:
+
+- ⚡ **Power markets & grid**: battery storage (BESS) interconnection-queue economics under Japan's 2026 deposit reform; data center siting × grid-capacity disclosure gap
+- 🏗️ **Infrastructure & environment**: nationwide bridge-condition panel (soundness transitions × fiscal capacity); data center local heat footprint via satellite land surface temperature
+- 🏭 **Digital twin interoperability (OpenUSD)**: engineering CAD ingestion semantics; PLATEAU city model → USD conversion fidelity
+- 🗺️ **Geospatial & urban**: purchasing-power-weighted accessibility; POI temporal-validation benchmark; parcel-level farmland-to-solar conversion panel
+
+Supporting data infrastructure: automated pipeline tracking grid interconnection capacity across Japan's utility areas; battery arbitrage backtesting on JEPX spot data.
 
 ## Featured Projects
 
 - <img src="https://locanea.com/logo-bold.svg" width="16" height="16"> [Locanea](https://locanea.com/) - Geospatial GIS SaaS for real estate location analysis (Japan)
-
-#### Security
-
-- 🛡️ [Axios Supply Chain Attack Self-Check (2026-03-31)](https://gist.github.com/ibarapascal/654c1ff0fc5a79e73cff9dbdc701cd0f) - Full self-check checklist for the axios/plain-crypto-js/openclaw compromise
-- 🛡️ [TeamPCP Supply Chain Attack Self-Check (2026-03-25)](https://gist.github.com/ibarapascal/f8ca7f90ff75f12e0bf7898ff6bf6aca) - Full self-check checklist for the TeamPCP campaign (LiteLLM / Trivy / Checkmarx / CanisterWorm)
-
-#### Claude Code Related
-
-- <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [claude-semaphore](https://github.com/ibarapascal/claude-semaphore) - Claude Code plugin — Terminal.app tab background color as session status indicator
-- <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [process-guardian](https://github.com/ibarapascal/process-guardian) - Claude Code plugin for auto-cleanup of orphan background processes
-- <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [claude-code-mac-notification](https://github.com/ibarapascal/claude-code-mac-notification) - macOS system notifications for Claude Code
-- <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [my-global-config](https://gist.github.com/ibarapascal/32132f7b4108252f79dd628edd401140) - My Claude Code global settings and configuration
 
 #### Data Visualization
 
@@ -43,6 +44,20 @@
 - 🚃 [tokyo-transit-isochrone](https://pages.mkhr.co.jp/tokyo-transit-isochrone/) - Tokyo Station transit isochrone animation (90-min reachability)
 - 🏙️ [tokyo-ksj-zone](https://pages.mkhr.co.jp/tokyo-ksj-zone/) - Tokyo zoning map with 12 land-use types (KSJ data)
 - 📍 [japan-osm-poi](https://pages.mkhr.co.jp/japan-osm-poi/) - Japan POI map from OpenStreetMap, filterable by type
+
+#### Tools
+
+- 📈 [btc-indicator-portal](https://pages.mkhr.co.jp/btc-indicator-portal/) - BTC on-chain indicator dashboard with 15 metrics overlay (ECharts)
+- 📊 [portfolio-analyzer](https://pages.mkhr.co.jp/portfolio-analyzer/) - Portfolio analyzer with ETF breakdown, leverage index, sector allocation
+- ✈️ [travel-risk-map](https://pages.mkhr.co.jp/travel-risk-map/) - Travel risk map with US/Japan official data, risk level coloring
+- 📈 [home-board](https://pages.mkhr.co.jp/home-board/) - Financial dashboard - stocks, weather, forex in one screen
+
+#### Claude Code Related
+
+- <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [claude-semaphore](https://github.com/ibarapascal/claude-semaphore) - Claude Code plugin — Terminal.app tab background color as session status indicator
+- <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [process-guardian](https://github.com/ibarapascal/process-guardian) - Claude Code plugin for auto-cleanup of orphan background processes
+- <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [claude-code-mac-notification](https://github.com/ibarapascal/claude-code-mac-notification) - macOS system notifications for Claude Code
+- <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [my-global-config](https://gist.github.com/ibarapascal/32132f7b4108252f79dd628edd401140) - My Claude Code global settings and configuration
 
 #### 3D & Animation
 
@@ -56,19 +71,16 @@
 - ⚪ [game-othello](https://pages.mkhr.co.jp/game-othello/) - Othello/Reversi for two players, face-to-face on mobile
 - ❌ [game-tictactoe](https://pages.mkhr.co.jp/game-tictactoe/) - Tic-Tac-Toe for two players
 
-#### Tools
-
-- 📈 [btc-indicator-portal](https://pages.mkhr.co.jp/btc-indicator-portal/) - BTC on-chain indicator dashboard with 15 metrics overlay (ECharts)
-- 📊 [portfolio-analyzer](https://pages.mkhr.co.jp/portfolio-analyzer/) - Portfolio analyzer with ETF breakdown, leverage index, sector allocation
-- ✈️ [travel-risk-map](https://pages.mkhr.co.jp/travel-risk-map/) - Travel risk map with US/Japan official data, risk level coloring
-- 📈 [home-board](https://pages.mkhr.co.jp/home-board/) - Financial dashboard - stocks, weather, forex in one screen
-
 #### Browser Extensions
 
 - 🧩 [chrome-sitemap-visualizer](https://github.com/mkhrdev/chrome-sitemap-visualizer) - Chrome extension: sitemap screenshot + D3 tree visualization
 
 #### Legacy Works
 
+- 🛡️ [Axios Supply Chain Attack Self-Check (2026-03-31)](https://gist.github.com/ibarapascal/654c1ff0fc5a79e73cff9dbdc701cd0f) - Full self-check checklist for the axios/plain-crypto-js/openclaw compromise
+- 🛡️ [TeamPCP Supply Chain Attack Self-Check (2026-03-25)](https://gist.github.com/ibarapascal/f8ca7f90ff75f12e0bf7898ff6bf6aca) - Full self-check checklist for the TeamPCP campaign (LiteLLM / Trivy / Checkmarx / CanisterWorm)
+- <a href="https://pages.mkhr.co.jp/claude-code-insights-report-20260204/"><img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16" align="top">&nbsp;claude-code-insights-report</a> - Claude Code usage analytics (as of 2026-02-04)
+- 🔍 [my-resume-by-ai](https://pages.mkhr.co.jp/my-resume-by-ai/) - AI-generated profile report page (as of 2026-01-09)
 - <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [ctx](https://gist.github.com/ibarapascal/c25c322240be7343988130e17ae02b5f) - Claude Code command to show markdown files read in current session
 - <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [compact-guardian](https://github.com/ibarapascal/compact-guardian) - Claude Code plugin to prevent task loss during context compaction
 - <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [cc-spec-driven](https://github.com/mkhrdev/cc-spec-driven) - Claude Code plugin for managing requirement documents and spec-driven development
