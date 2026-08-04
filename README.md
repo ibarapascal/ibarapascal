@@ -4,8 +4,14 @@
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![SciPy](https://img.shields.io/badge/-SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Polars](https://img.shields.io/badge/-Polars-CD792C?style=flat-square&logo=polars&logoColor=white)
+![DuckDB](https://img.shields.io/badge/-DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![LP / MILP](https://img.shields.io/badge/-LP%20%2F%20MILP-2F6FAB?style=flat-square)
+![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
@@ -20,78 +26,27 @@
 ![macOS](https://img.shields.io/badge/-macOS-000000?style=flat-square&logo=apple&logoColor=white)
 ![Web](https://img.shields.io/badge/-Web-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
 
-> Systems-oriented builder at the intersection of energy, data, and software — from Japan's power market research (JEPX / battery storage / grid data) to geospatial SaaS, turning complex, constrained real-world problems into executable systems.
+> Quantitative work on energy markets and infrastructure — price formation, revenue and risk modelling, backtesting on raw market data — alongside the data engineering and geospatial systems that feed it.
 
-## Research — Power Markets, Infrastructure & Urban Data (Japan)
+## 📄 Research (power markets, energy, urban data)
 
-Independent researcher — first-author papers under review at international journals (preprints on SSRN / EarthArXiv / Zenodo), across four parallel tracks:
+**BESS (grid-scale battery energy storage)** — two public studies, both reproducible end to end from raw market data: half-hourly price series, LP dispatch optimisation, backtesting, revenue attribution and error decomposition.
 
-- ⚡ **Power markets & grid**: battery storage (BESS) interconnection-queue economics under Japan's 2026 deposit reform; data center siting × grid-capacity disclosure gap
-- 🏗️ **Infrastructure & environment**: nationwide bridge-condition panel (soundness transitions × fiscal capacity); data center local heat footprint via satellite land surface temperature
-- 🏭 **Digital twin interoperability (OpenUSD)**: engineering CAD ingestion semantics; PLATEAU city model → USD conversion fidelity
-- 🗺️ **Geospatial & urban**: purchasing-power-weighted accessibility; POI temporal-validation benchmark; parcel-level farmland-to-solar conversion panel
+- [**jepx-revenue-anatomy**](https://github.com/ibarapascal/jepx-revenue-anatomy) — where a BESS earns its day-ahead arbitrage revenue in Japan (JEPX, FY2017–FY2025)
+- [**bess-revenue-stack**](https://github.com/ibarapascal/bess-revenue-stack) — what four common modelling shortcuts cost a BESS revenue forecast, measured one at a time on GB market data
 
-Supporting data infrastructure: automated pipeline tracking grid interconnection capacity across Japan's utility areas; battery arbitrage backtesting on JEPX spot data.
+**Power grid** — building a national model of Japan's transmission network: `keitouzu`, a topology dataset from the ten TSOs' statutory system diagrams (≥154 kV, 1,358 nodes / 1,472 edges), and `powerjp`, a pipeline joining it with power flow, area supply–demand, and spot prices.
 
-## Featured Projects
+**Papers** — first-author, under review at international journals: forward premiums in indirect transmission-right auctions (JEPX), reservation pricing for data-center backup BESS, and data-center siting against grid-capacity disclosure. Earlier work also covers infrastructure condition panels, farmland-to-solar conversion, OpenUSD interoperability, and POI data validation.
 
-- <img src="https://locanea.com/logo-bold.svg" width="16" height="16"> [Locanea](https://locanea.com/) - Geospatial GIS SaaS for real estate location analysis (Japan)
+## 🛠️ Products & Projects
 
-#### Data Visualization
-
-- 🌍 [earthquake-cesium](https://pages.mkhr.co.jp/earthquake-cesium/) - 3D earthquake visualization with CesiumJS (Japan, 2000-2023, M≥3)
-- 🏙️ [tokyo-building-density-3d-v2](https://pages.mkhr.co.jp/tokyo-building-density-3d-v2/) - 3D building FAR visualization across all 23 wards of Tokyo (PLATEAU 3D Tiles, CesiumJS)
-- 🚃 [tokyo-transit-isochrone](https://pages.mkhr.co.jp/tokyo-transit-isochrone/) - Tokyo Station transit isochrone animation (90-min reachability)
-- 🏙️ [tokyo-ksj-zone](https://pages.mkhr.co.jp/tokyo-ksj-zone/) - Tokyo zoning map with 12 land-use types (KSJ data)
-- 📍 [japan-osm-poi](https://pages.mkhr.co.jp/japan-osm-poi/) - Japan POI map from OpenStreetMap, filterable by type
-
-#### Tools
-
-- 📈 [btc-indicator-portal](https://pages.mkhr.co.jp/btc-indicator-portal/) - BTC on-chain indicator dashboard with 15 metrics overlay (ECharts)
-- 📊 [portfolio-analyzer](https://pages.mkhr.co.jp/portfolio-analyzer/) - Portfolio analyzer with ETF breakdown, leverage index, sector allocation
-- ✈️ [travel-risk-map](https://pages.mkhr.co.jp/travel-risk-map/) - Travel risk map with US/Japan official data, risk level coloring
-- 📈 [home-board](https://pages.mkhr.co.jp/home-board/) - Financial dashboard - stocks, weather, forex in one screen
-
-#### Claude Code Related
-
-- <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [claude-semaphore](https://github.com/ibarapascal/claude-semaphore) - Claude Code plugin — Terminal.app tab background color as session status indicator
-- <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [process-guardian](https://github.com/ibarapascal/process-guardian) - Claude Code plugin for auto-cleanup of orphan background processes
-- <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [claude-code-mac-notification](https://github.com/ibarapascal/claude-code-mac-notification) - macOS system notifications for Claude Code
-- <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [my-global-config](https://gist.github.com/ibarapascal/32132f7b4108252f79dd628edd401140) - My Claude Code global settings and configuration
-
-#### 3D & Animation
-
-- 🔥 [cyber-campfire](https://pages.mkhr.co.jp/cyber-campfire/) - 3D fireplace with dynamic flames and lighting (Three.js)
-- 🌳 [git-gource](https://pages.mkhr.co.jp/git-gource/) - Git repository visualization in Gource style (Three.js)
-- 🎲 [decision-making-dice](https://pages.mkhr.co.jp/decision-making-dice/) - 3D dice for decision making, click or press Enter to roll
-
-#### Games
-
-- ⚫ [game-gomoku](https://pages.mkhr.co.jp/game-gomoku/) - Gomoku (Five in a Row) for two players, 13x13 board
-- ⚪ [game-othello](https://pages.mkhr.co.jp/game-othello/) - Othello/Reversi for two players, face-to-face on mobile
-- ❌ [game-tictactoe](https://pages.mkhr.co.jp/game-tictactoe/) - Tic-Tac-Toe for two players
-
-#### Browser Extensions
-
-- 🧩 [chrome-sitemap-visualizer](https://github.com/mkhrdev/chrome-sitemap-visualizer) - Chrome extension: sitemap screenshot + D3 tree visualization
-
-#### Legacy Works
-
-- 🛡️ [Axios Supply Chain Attack Self-Check (2026-03-31)](https://gist.github.com/ibarapascal/654c1ff0fc5a79e73cff9dbdc701cd0f) - Full self-check checklist for the axios/plain-crypto-js/openclaw compromise
-- 🛡️ [TeamPCP Supply Chain Attack Self-Check (2026-03-25)](https://gist.github.com/ibarapascal/f8ca7f90ff75f12e0bf7898ff6bf6aca) - Full self-check checklist for the TeamPCP campaign (LiteLLM / Trivy / Checkmarx / CanisterWorm)
-- <a href="https://pages.mkhr.co.jp/claude-code-insights-report-20260204/"><img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16" align="top">&nbsp;claude-code-insights-report</a> - Claude Code usage analytics (as of 2026-02-04)
-- 🔍 [my-resume-by-ai](https://pages.mkhr.co.jp/my-resume-by-ai/) - AI-generated profile report page (as of 2026-01-09)
-- <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [ctx](https://gist.github.com/ibarapascal/c25c322240be7343988130e17ae02b5f) - Claude Code command to show markdown files read in current session
-- <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [compact-guardian](https://github.com/ibarapascal/compact-guardian) - Claude Code plugin to prevent task loss during context compaction
-- <img src="https://cdn.simpleicons.org/claude/D97757" width="16" height="16"> [cc-spec-driven](https://github.com/mkhrdev/cc-spec-driven) - Claude Code plugin for managing requirement documents and spec-driven development
-- ⚓ [csg-envelope-sim-003](https://pages.mkhr.co.jp/csg-envelope-sim-003/) - 3D carrier strike group weapon envelope simulation (CesiumJS)
-- 🗺️ [earthquake-mapbox](https://pages.mkhr.co.jp/earthquake-mapbox/) - 2D earthquake map with MapLibre + Deck.gl, depth coloring, filters
-- 📂 [data-epicenter-jp](https://github.com/ibarapascal/data-epicenter-jp) - JS scripts to format Japan's official seismic epicenter data to CSV, JSON
-- ⏱️ [time-controller](https://github.com/ibarapascal/time-controller) - A hybrid mobile application to manage your time spent
-- 📝 [demo-box](https://github.com/ibarapascal/demo-box) - Web application to write in Markdown, JSX, and code sandbox
-- 🌤️ [netweather](https://github.com/ibarapascal/netweather) - A web application showing weather forecast info
-- 🔎 [netsearch](https://github.com/ibarapascal/netsearch) - Demo to search GitHub content with debounce, throttle, and pagination
-- 📚 [netbooks](https://github.com/ibarapascal/netbooks) - A web application showing book store info
-- ⚛️ [react-debounce-rendering](https://github.com/ibarapascal/react-debounce-rendering) - NPM package for debounce rendering React components via HOC
-- 🗾 [epicenter-view](https://github.com/ibarapascal/epicenter-view) - Web application visualizing seismic epicenter data using ArcGIS APIs
-- 💹 [digital-currency-historical-data-s3](https://github.com/ibarapascal/digital-currency-historical-data-s3) - JS scripts to obtain trade data and format to JSON
+| | |
+|---|---|
+| **Product** | [**Locanea**](https://locanea.com/) — Geospatial GIS SaaS for real estate location analysis (Japan), by [MKHR](https://mkhr.co.jp) — member of Anthropic's Claude Partner Network and NVIDIA Inception |
+| **Data viz** | [earthquake-cesium](https://pages.mkhr.co.jp/earthquake-cesium/) · [tokyo-building-density-3d-v2](https://pages.mkhr.co.jp/tokyo-building-density-3d-v2/) · [tokyo-transit-isochrone](https://pages.mkhr.co.jp/tokyo-transit-isochrone/) · [tokyo-ksj-zone](https://pages.mkhr.co.jp/tokyo-ksj-zone/) · [japan-osm-poi](https://pages.mkhr.co.jp/japan-osm-poi/) |
+| **Dashboards** | [btc-indicator-portal](https://pages.mkhr.co.jp/btc-indicator-portal/) · [portfolio-analyzer](https://pages.mkhr.co.jp/portfolio-analyzer/) · [travel-risk-map](https://pages.mkhr.co.jp/travel-risk-map/) · [home-board](https://pages.mkhr.co.jp/home-board/) |
+| **Claude** | [claude-semaphore](https://github.com/ibarapascal/claude-semaphore) · [process-guardian](https://github.com/ibarapascal/process-guardian) · [claude-code-mac-notification](https://github.com/ibarapascal/claude-code-mac-notification) · [my-global-config](https://gist.github.com/ibarapascal/32132f7b4108252f79dd628edd401140) |
+| **Extensions** | [chrome-sitemap-visualizer](https://github.com/mkhrdev/chrome-sitemap-visualizer) |
+| **3D & games** | [cyber-campfire](https://pages.mkhr.co.jp/cyber-campfire/) · [git-gource](https://pages.mkhr.co.jp/git-gource/) · [decision-making-dice](https://pages.mkhr.co.jp/decision-making-dice/) · [gomoku](https://pages.mkhr.co.jp/game-gomoku/) · [othello](https://pages.mkhr.co.jp/game-othello/) · [tictactoe](https://pages.mkhr.co.jp/game-tictactoe/) |
+| **Older work** | [claude-code-insights-report](https://pages.mkhr.co.jp/claude-code-insights-report-20260204/) · [my-resume-by-ai](https://pages.mkhr.co.jp/my-resume-by-ai/) · [ctx](https://gist.github.com/ibarapascal/c25c322240be7343988130e17ae02b5f) · [compact-guardian](https://github.com/ibarapascal/compact-guardian) · [cc-spec-driven](https://github.com/mkhrdev/cc-spec-driven) · [csg-envelope-sim-003](https://pages.mkhr.co.jp/csg-envelope-sim-003/) · [earthquake-mapbox](https://pages.mkhr.co.jp/earthquake-mapbox/) · [data-epicenter-jp](https://github.com/ibarapascal/data-epicenter-jp) · [time-controller](https://github.com/ibarapascal/time-controller) · [demo-box](https://github.com/ibarapascal/demo-box) · [netweather](https://github.com/ibarapascal/netweather) · [netsearch](https://github.com/ibarapascal/netsearch) · [netbooks](https://github.com/ibarapascal/netbooks) · [react-debounce-rendering](https://github.com/ibarapascal/react-debounce-rendering) · [epicenter-view](https://github.com/ibarapascal/epicenter-view) · [digital-currency-historical-data-s3](https://github.com/ibarapascal/digital-currency-historical-data-s3) |
