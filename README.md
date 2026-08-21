@@ -1,43 +1,34 @@
 # Hi, I'm Jiawei 👋
 
-📍 **Tokyo** | ⚡ Delta Electronics (Energy Solutions) | 🏢 Ex-Dentsu, Ex-Softbank, Ex-SONY | 🚀 MKHR Founder
+📍 **Tokyo** | Engineer × Researcher × PdM | 🏢 Ex-Sony, Ex-Softbank, Ex-Dentsu | 🚀 MKHR Founder
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![SciPy](https://img.shields.io/badge/-SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Polars](https://img.shields.io/badge/-Polars-CD792C?style=flat-square&logo=polars&logoColor=white)
 ![DuckDB](https://img.shields.io/badge/-DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![LP / MILP](https://img.shields.io/badge/-LP%20%2F%20MILP-2F6FAB?style=flat-square)
-![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Three.js](https://img.shields.io/badge/-Three.js-000000?style=flat-square&logo=three.js&logoColor=white)
-![CesiumJS](https://img.shields.io/badge/-CesiumJS-6CADDF?style=flat-square&logo=cesium&logoColor=white)
-![MapLibre](https://img.shields.io/badge/-MapLibre-396CB2?style=flat-square&logo=maplibre&logoColor=white)
-![OpenUSD](https://img.shields.io/badge/-OpenUSD-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![Claude Code](https://img.shields.io/badge/-Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/-Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Three.js](https://img.shields.io/badge/-Three.js-000000?style=flat-square&logo=three.js&logoColor=white)
+![Claude Code](https://img.shields.io/badge/-Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white)
+![Qwen](https://img.shields.io/badge/-Qwen-615CED?style=flat-square&logo=qwen&logoColor=white)
 ![macOS](https://img.shields.io/badge/-macOS-000000?style=flat-square&logo=apple&logoColor=white)
-![Web](https://img.shields.io/badge/-Web-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
 
-> Quantitative work on energy markets and infrastructure — price formation, revenue and risk modelling, backtesting on raw market data — alongside the data engineering and geospatial systems that feed it.
+> Research and engineering in parallel: quantitative work on energy markets and infrastructure — price formation, revenue and risk modelling, backtesting on raw market data — and the data platforms and geospatial services that carry it, built end to end and running in production.
 
-## 📄 Research (power markets, energy, urban data)
+## 📄 Research
 
 **BESS (grid-scale battery energy storage)** — two public studies, both reproducible end to end from raw market data: half-hourly price series, LP dispatch optimisation, backtesting, revenue attribution and error decomposition.
 
 - [**jepx-revenue-anatomy**](https://github.com/ibarapascal/jepx-revenue-anatomy) — where a BESS earns its day-ahead arbitrage revenue in Japan (JEPX, FY2017–FY2025)
 - [**bess-revenue-stack**](https://github.com/ibarapascal/bess-revenue-stack) — what four common modelling shortcuts cost a BESS revenue forecast, measured one at a time on GB market data
 
-**Power grid** — building a national model of Japan's transmission network: `keitouzu`, a topology dataset from the ten TSOs' statutory system diagrams (≥154 kV, 1,358 nodes / 1,472 edges), and `powerjp`, a pipeline joining it with power flow, area supply–demand, and spot prices.
+**Power grid** — building a national model of Japan's transmission network: [**open-keitouzu**](https://github.com/ibarapascal/open-keitouzu), a topology dataset from the ten TSOs' statutory system diagrams, and [**powerjp**](https://powerjp.mkhr.co.jp/), a pipeline joining it with power flow, area supply–demand, and spot prices.
 
-**Papers** — first-author, under review at international journals: forward premiums in indirect transmission-right auctions (JEPX), reservation pricing for data-center backup BESS, and data-center siting against grid-capacity disclosure. Earlier work also covers infrastructure condition panels, farmland-to-solar conversion, OpenUSD interoperability, and POI data validation.
+**Data centres** — their environmental footprint: localised heat, land, and the grid capacity they compete for.
+
+**POI data** — temporal validity: how fast a change in the real world reaches an open dataset, and what never reaches it at all.
+
+**Other work** — power-market pricing, transmission rights, farmland-to-solar conversion, public-infrastructure condition, spatial accessibility, geospatial data standards.
 
 ## 🛠️ Products & Projects
 
